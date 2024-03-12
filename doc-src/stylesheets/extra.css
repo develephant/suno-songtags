@@ -1,0 +1,168 @@
+/* Fonts */
+@font-face {
+  font-family: "LT Saeada SemiBold";
+  src: url("../fonts/LTSaeada-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "LT Saeada Medium";
+  src: url("../fonts/LTSaeada-Medium.otf");
+}
+
+@font-face {
+  font-family: "LT Saeada Regular";
+  src: url("../fonts/LTSaeada-Regular.otf");
+}
+
+@font-face {
+  font-family: "LT Saeada Light";
+  src: url("../fonts/LTSaeada-Light.otf");
+}
+
+@font-face {
+  font-family: "LT Saeada ExtraLight";
+  src: url("../fonts/LTSaeada-ExtraLight.otf");
+}
+
+@font-face {
+  font-family: "LT Saeada Thin";
+  src: url("../fonts/LTSaeada-Thin.otf");
+}
+
+:root > * {
+  --cornflower-blue: #5f8bdaff;
+  --antique-white: #ffeedbff;
+  --asparagus: #659b5eff;
+  --cinnabar: #F2542D;
+  --charcoal: #3a4454ff;
+  --darker-blue: #222C3E;
+  --wheat: #F5DFBB;
+  --md-text-font: "LT Saeada ExtraLight";
+  --md-text-color: #ffeedb;
+
+  font-size: 1.3em;
+}
+
+/* Tags */
+/* div {
+  font-family: "LT Saeada Light";
+} */
+
+b {
+  font-family: "LT Saeada ExtraLight";
+}
+
+/* Type */
+
+.md-typeset div {
+  font-family: "LT Saeada Light";
+}
+
+.md-typeset i {
+  color: var(--cornflower-blue);
+}
+
+.md-typeset code {
+  font-size: 1em;
+}
+
+.md-typeset menu {
+  color: var(--cornflower-blue);
+}
+
+.md-typeset span {
+  font-size: 2.1em;
+  font-family: "LT Saeada SemiBold";
+  color: var(--charcoal);
+}
+
+.md-typeset strong {
+  font-family: "LT Saeada Medium"; 
+}
+
+.md-typeset h1 {
+  color: var(--antique-white);
+  font-family: "LT Saeada SemiBold";
+}
+
+.md-typeset h2 {
+  color: var(--asparagus);
+  font-family: "LT Saeada Regular";
+  font-size: larger;
+}
+
+.md-typeset h3 {
+  /* color: var(--asparagus); */
+  color: var(--wheat);
+  font-family: "LT Saeada ExtraLight";
+}
+
+/* TABLE */
+.md-typeset__table table {
+  width: 100%;
+}
+
+.md-typeset__table tr {
+  font-size: 1.1em;
+}
+
+.md-typeset__table code {
+  font-size: 1.02em;
+}
+
+.md-typeset__table span {
+  font-size: unset;
+  color: var(--cornflower-blue);
+}
+
+/* NAV LIST */
+li.md-nav__item {
+  color: var(--antique-white);
+}
+
+/* CUSTOMS */
+.icon-color {
+  color: var(--cinnabar)
+}
+
+div.tag-title {
+ margin-top: -32px;
+}
+
+.tag-title span {
+  color: var(--antique-white);
+  margin-left: 20px;
+}
+
+.tag-title img {
+  vertical-align: bottom;
+  width: 60px;
+}
+
+span.white {
+  color: var(--antique-white);
+  font-size: unset;
+}
+
+span.suno-version {
+  font-family: "LT Saeada Medium";
+  color: var(--cinnabar);
+  font-size: small;
+}
+
+
+/* p {
+  font-family: "LT Saeada Light";
+} */
+
+/* .logo-page-title {
+  font-family: "LT Saeada Medium";
+  font-size: 2em;
+  color: var(--antique-white);
+} */
+
+/* .logo-page-title i {
+  font-family: "LT Saeada Medium";
+  font-weight: bolder;
+  color: var(--cornflower-blue);
+} */

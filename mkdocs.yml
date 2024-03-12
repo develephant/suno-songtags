@@ -1,0 +1,76 @@
+site_name: 'Song Tags for Suno AI'
+copyright: develephant
+nav:
+  - 'What Is Suno?': pages/suno.md
+  - 'Song Tags':
+    - song-tags/index.md
+    - 'Intro': song-tags/intro.md
+    - 'Verse': song-tags/verse.md
+  - 'Composing':
+    - 'composing/index.md'
+    - 'Basic': composing/basic.md
+    - 'Advanced': composing/advanced.md
+    - 'Lyrics': composing/lyrics.md
+  - 'Song Template': pages/template.md
+theme: 
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
+  logo: './imgs/rnd-logo.png'
+  favicon: './imgs/rnd-tiny.png'
+  icon:
+    menu: material/microsoft-xbox-controller-menu
+    admonition:
+      note: octicons/beaker-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/cpu-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  features:
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - header.autohide
+    - content.code.copy
+  # - navigation.tabs
+  # - navigation.sections
+  # - content.tabs.link
+extra:
+  generator: false
+  social:
+    - icon: material/music-box
+      link: https://suno.ai
+    - icon: material/github
+      link: https://github.com
+    - icon: material/youtube 
+      link: https://youtube.com
+    - icon: material/soundcloud
+      link: https://soundcloud.com
+markdown_extensions:
+  - toc:
+      toc_depth: 2
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  # - pymdownx.inlinehilite
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+# - def_list
+# - pymdownx.details
+docs_dir: './docs'
+site_dir: '../build'
+extra_css:
+  - stylesheets/extra.css

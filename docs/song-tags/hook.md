@@ -1,31 +1,25 @@
-# :material-tag-heart: Verse
+# :material-tag-heart: Hook
 
 <span class="suno-version">Suno AI: V3.alpha</span>
 
 ## Overview
 
-Prompt the AI to consider this section a verse in the song.
+Prompt the AI to consider adding a hook in the song.
 
 ```
-[Verse]
+[Hook]
 ```
 
 ## Variations
 
 ```
-[STYLE Verse]
+[STYLE Hook]
 ```
 
-### Sad
+### Catchy
 
 ```
-[Sad Verse]
-```
-
-### Rapped
-
-```
-[Rapped Verse]
+[Catchy Hook]
 ```
 
 ## Example
@@ -33,17 +27,13 @@ Prompt the AI to consider this section a verse in the song.
 === "Basic"
 
     ```
-    [Verse]
-    I love the rain
-    Let's play in the rain
+    [Hook]
     ```
 
 === "Variation"
 
     ```
-    [Rapped Verse]
-    I'm a tree
-    Let me be
+    [Catchy Hook]
     ```
 
 !!! note "Take It Further"

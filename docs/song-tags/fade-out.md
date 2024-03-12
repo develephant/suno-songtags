@@ -1,31 +1,25 @@
-# :material-tag-heart: Verse
+# :material-tag-heart: Fade Out
 
 <span class="suno-version">Suno AI: V3.alpha</span>
 
 ## Overview
 
-Prompt the AI to consider this section a verse in the song.
+Prompt the AI to consider this section as a fade out for the song.
 
 ```
-[Verse]
+[Fade Out]
 ```
 
 ## Variations
 
 ```
-[STYLE Verse]
+[Fade STYLE]
 ```
 
-### Sad
+### To End
 
 ```
-[Sad Verse]
-```
-
-### Rapped
-
-```
-[Rapped Verse]
+[Fade To End]
 ```
 
 ## Example
@@ -33,21 +27,15 @@ Prompt the AI to consider this section a verse in the song.
 === "Basic"
 
     ```
-    [Verse]
-    I love the rain
-    Let's play in the rain
+    [Fade Out]
     ```
 
 === "Variation"
 
     ```
-    [Rapped Verse]
-    I'm a tree
-    Let me be
+    [Fade To End]
     ```
 
-!!! note "Take It Further"
-    These are only a few examples of variations, be sure to experiment with your own!
 
 ## Notes
 

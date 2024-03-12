@@ -1,53 +1,26 @@
-# :material-tag-heart: Verse
+# :material-tag-heart: End
 
 <span class="suno-version">Suno AI: V3.alpha</span>
 
 ## Overview
 
-Prompt the AI to consider this section a verse in the song.
+Prompt the AI to consider this section the end of the song.
 
 ```
-[Verse]
+[End]
 ```
 
 ## Variations
 
-```
-[STYLE Verse]
-```
-
-### Sad
-
-```
-[Sad Verse]
-```
-
-### Rapped
-
-```
-[Rapped Verse]
-```
+None.
 
 ## Example
 
 === "Basic"
 
     ```
-    [Verse]
-    I love the rain
-    Let's play in the rain
+    [End]
     ```
-
-=== "Variation"
-
-    ```
-    [Rapped Verse]
-    I'm a tree
-    Let me be
-    ```
-
-!!! note "Take It Further"
-    These are only a few examples of variations, be sure to experiment with your own!
 
 ## Notes
 

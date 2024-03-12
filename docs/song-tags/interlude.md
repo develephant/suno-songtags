@@ -1,31 +1,31 @@
-# :material-tag-heart: Verse
+# :material-tag-heart: Interlude
 
 <span class="suno-version">Suno AI: V3.alpha</span>
 
 ## Overview
 
-Prompt the AI to consider this section a verse in the song.
+Prompt the AI to consider this section an interlude in the song.
 
 ```
-[Verse]
+[Interlude]
 ```
 
 ## Variations
 
 ```
-[STYLE Verse]
+[STYLE Interlude]
 ```
 
-### Sad
+### Melodic
 
 ```
-[Sad Verse]
+[Melodic Interlude]
 ```
 
-### Rapped
+### Instrumental
 
 ```
-[Rapped Verse]
+[Instrumental Interlude]
 ```
 
 ## Example
@@ -33,17 +33,13 @@ Prompt the AI to consider this section a verse in the song.
 === "Basic"
 
     ```
-    [Verse]
-    I love the rain
-    Let's play in the rain
+    [Interlude]
     ```
 
 === "Variation"
 
     ```
-    [Rapped Verse]
-    I'm a tree
-    Let me be
+    [Melodic Interlude]
     ```
 
 !!! note "Take It Further"

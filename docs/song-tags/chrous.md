@@ -1,31 +1,31 @@
-# :material-tag-heart: Verse
+# :material-tag-heart: Chrous
 
 <span class="suno-version">Suno AI: V3.alpha</span>
 
 ## Overview
 
-Prompt the AI to consider this section a verse in the song.
+Prompt the AI to consider this section a chrous in the song.
 
 ```
-[Verse]
+[Chrous]
 ```
 
 ## Variations
 
 ```
-[STYLE Verse]
+[STYLE Chrous]
 ```
 
-### Sad
+### Happy
 
 ```
-[Sad Verse]
+[Happy Chrous]
 ```
 
-### Rapped
+### Powerpop
 
 ```
-[Rapped Verse]
+[Powerpop Chrous]
 ```
 
 ## Example
@@ -33,7 +33,7 @@ Prompt the AI to consider this section a verse in the song.
 === "Basic"
 
     ```
-    [Verse]
+    [Chrous]
     I love the rain
     Let's play in the rain
     ```
@@ -41,7 +41,7 @@ Prompt the AI to consider this section a verse in the song.
 === "Variation"
 
     ```
-    [Rapped Verse]
+    [Happy Chrous]
     I'm a tree
     Let me be
     ```

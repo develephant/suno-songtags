@@ -1,30 +1,35 @@
 site_name: 'Song Tags for Suno AI'
-copyright: develephant
+copyright: by develephant (not affiliated with suno.ai)
 nav:
-  - 'What Is Suno?': pages/suno.md
   - 'Song Tags':
     - song-tags/index.md
     - 'Intro': song-tags/intro.md
     - 'Verse': song-tags/verse.md
-  - 'Composing':
-    - 'composing/index.md'
-    - 'Basic': composing/basic.md
-    - 'Advanced': composing/advanced.md
-    - 'Lyrics': composing/lyrics.md
-  - 'Song Template': pages/template.md
+    - 'Pre-Chrous': song-tags/pre-chrous.md
+    - 'Chrous': song-tags/chrous.md
+    - 'Hook': song-tags/hook.md
+    - 'Break': song-tags/break.md
+    - 'Build': song-tags/build.md
+    - 'Interlude': song-tags/interlude.md
+    - 'Refrain': song-tags/refrain.md
+    - 'Outro': song-tags/outro.md
+    - 'Fade Out': song-tags/fade-out.md
+    - 'End': song-tags/end.md
+    - 'Special Tags': song-tags/special-tags.md
+  - 'Song Templates': pages/template.md
 theme: 
   name: material
   palette:
     scheme: slate
     primary: black
     accent: indigo
-  logo: './imgs/rnd-logo.png'
   favicon: './imgs/rnd-tiny.png'
   icon:
-    menu: material/microsoft-xbox-controller-menu
+    logo: 'material/tag-heart'
+    menu: material/music-circle
     admonition:
       note: octicons/beaker-16
-      abstract: octicons/checklist-16
+      abstract: octicons/mark-github-16
       info: octicons/info-16
       tip: octicons/squirrel-16
       success: octicons/check-16
@@ -50,14 +55,14 @@ extra:
     - icon: material/music-box
       link: https://suno.ai
     - icon: material/github
-      link: https://github.com
+      link: https://github.com/develephant/suno-songtags
     - icon: material/youtube 
       link: https://youtube.com
     - icon: material/soundcloud
       link: https://soundcloud.com
 markdown_extensions:
   - toc:
-      toc_depth: 2
+      toc_depth: 3
   - admonition
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -71,6 +76,6 @@ markdown_extensions:
 # - def_list
 # - pymdownx.details
 docs_dir: './docs'
-site_dir: '../build'
+site_dir: './build'
 extra_css:
   - stylesheets/extra.css

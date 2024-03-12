@@ -1,0 +1,63 @@
+/* CSS HEX */
+
+/* --cornflower-blue: #5f8bdaff;
+--antique-white: #ffeedbff;
+--asparagus: #659b5eff;
+--tyrian-purple: #6a0136ff;
+--charcoal: #3a4454ff; */
+
+@font-face {
+  font-family: "LT Saeada Medium";
+  src: url("../fonts/LTSaeada-Medium.otf");
+}
+
+@font-face {
+  font-family: "LT Saeada Regular";
+  src: url("../fonts/LTSaeada-Regular.otf");
+}
+
+:root {
+    --md-text-font: "LT Saeada Regular";
+    font-size: 1.2em;
+}
+
+.md-typeset h1 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  --md-text-font: "LT Saeada Medium";
+  /* line-height: 20px;
+  color: #BF583F; */
+}
+
+/* .md-typeset h2 {
+  font-size: 1.5em;
+  line-height: 0px;
+  margin: 0;
+  color: #BF583F;
+} */
+
+.md-header__title {
+  padding-right: -8em;
+}
+
+.logo-page-title {
+  font-size: 2em;
+  font-weight: bolder;
+  /* color: #BF583F; */
+}
+
+i {
+  color: #5F8BDA;
+}
+
+.tag_color {
+  color: #5F8BDA
+}
+
+strong {
+  color: #596e75
+}
+
+.icon-color {
+  color: #5e916d
+}

@@ -1,5 +1,8 @@
-# ![Suno Tags Logo](../imgs/rnd-logo.png){ width="80", align="left" } 
-<span class="tag-title">Song Template</span>
+#
+<div class="tag-title" markdown>
+  <img src="/imgs/rnd-logo.png">
+  <span>Song Templates</span>
+</div>
 
 ---
 
@@ -27,6 +30,8 @@ Place chrous 1 content here
 [Intro]
 Place intro content matter here
 
+[Hook]
+
 [Verse]
 Place verse 1 content here
 
@@ -36,14 +41,18 @@ Place chrous 1 content here
 [Bridge]
 Place bridge content here
 
-[Verse]
+[Upbeat Verse]
 Place verse 2 content here
+
+[Build]
 
 [Chrous]
 Place chrous 1 content here
 
+[Soft Hook]
+
 [Outro]
 Place outro content here
 
-[End]
+[Fade To End]
 ```
